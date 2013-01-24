@@ -8,5 +8,6 @@ public class CMath {
 		
 	static{
 		//TODO include dynamic library were native methods are implemented
+		System.load("/home/ashamin/java/workspace/expCalcJNI/lib/math_CMath.so");
 	}
 }
