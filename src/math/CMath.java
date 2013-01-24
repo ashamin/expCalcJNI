@@ -7,7 +7,7 @@ public class CMath {
 	public native double div(double par1, double par2);
 		
 	static{
-		//TODO include dynamic library were native methods are implemented
+		//include dynamic library where native methods are implemented
 		System.load("/home/ashamin/java/workspace/expCalcJNI/lib/math_CMath.so");
 	}
 }

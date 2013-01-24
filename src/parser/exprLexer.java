@@ -1,6 +1,6 @@
 package parser;
 
-// $ANTLR 3.4 
+// $ANTLR 3.4 generated lexer
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -40,7 +40,7 @@ public class exprLexer extends Lexer {
             int _type = T__6;
             int _channel = DEFAULT_TOKEN_CHANNEL;
             // ( '(' )
-            //  '('
+            // '('
             {
             match('('); 
 
@@ -167,8 +167,9 @@ public class exprLexer extends Lexer {
             int _channel = DEFAULT_TOKEN_CHANNEL;
             //  ( ( '0' .. '9' )+ ( '.' ( '0' .. '9' )+ )? )
             //  ( '0' .. '9' )+ ( '.' ( '0' .. '9' )+ )?
+           
             {
-            // ( '0' .. '9' )+
+            //  ( '0' .. '9' )+
             int cnt1=0;
             loop1:
             do {

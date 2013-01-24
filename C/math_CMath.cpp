@@ -1,8 +1,6 @@
 /*
  * +math_CMath.cpp
- *
- *  Created on: 29.12.2012
- *      Author: Anton Shamin
+ *  Author: Anton Shamin
  */
 
 #include "math_CMath.h"

@@ -1,6 +1,6 @@
 package parser;
 
-// $ANTLR 3.4
+// $ANTLR 3.4 generated parser
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -12,7 +12,7 @@ import math.CMath;
 public class exprParser extends Parser {
     public static final String[] tokenNames = new String[] {
         "<invalid>", "<EOR>", "<DOWN>", "<UP>", "DoubleConst", "WS", "'('", "')'", "'*'", "'+'", "'-'", "'/'"
-    };
+    }; 
 
     public static final int EOF=-1;
     public static final int T__6=6;
